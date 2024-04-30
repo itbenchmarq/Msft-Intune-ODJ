@@ -27,6 +27,7 @@ it's respective file to attempt Step 4.
 #Pre-Requisities
 1.  Direct Access properly setup via https://learn.microsoft.com/en-us/windows-server/remote/remote-access/directaccess/single-server-wizard/da-basic-configure-s2-server
 2.  Certificate for ODJ "Direct Access Client Settings"
+3.  Github Repo and Access token setup
 
 
 #Possible Issues
