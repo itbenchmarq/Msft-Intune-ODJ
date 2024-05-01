@@ -1,5 +1,5 @@
 # Microsft's Offline Domain Join (ODJ) typically requires numerous steps.
-** These include the following: **
+**These include the following:**
 1.  Running a DJoin script to adding the machine to the domain.
 2.  This outputs a file (TXT or DAT) to be used when offline domain joining the endpoint.
 3.  Copy-Paste the outputed file to the endpoint.
