@@ -1,4 +1,7 @@
-# Microsft's Offline Domain Join (ODJ) typically requires numerous steps.
+# Purpose
+Provide an automated method to add machines via Offline Domain Join and Direct Access.
+
+## Microsft's Offline Domain Join (ODJ) typically requires numerous steps.
 **These include the following:**
 1.  Running a DJoin script to adding the machine to the domain.
 2.  This outputs a file (TXT or DAT) to be used when offline domain joining the endpoint.
@@ -10,7 +13,7 @@ With the inclusion of Step 3, this becomes a manual task.
 !! This script aims to Remove Step 3 by uploading a list of DJoin outputs to Github and having the script dynamically grab 
 it's respective file to attempt Step 4.
 
-# Tasks Required
+## Tasks Required
 1.  Generate a list of computers to add to the domain in a list TXT format. 
 2.  Login to a Domain Controller and Open a Powershell Window as Admin
 3.  Run 'New-DAComputerObject.ps1' in order to ingest the Function into the current environment.
@@ -25,7 +28,7 @@ it's respective file to attempt Step 4.
 9.  The machine should now be ready for reboot and be offline joined to the domain as well as connected to Direct Access.
 
 
-# Pre-Requisities
+## Pre-Requisities
 1.  Direct Access properly setup via https://learn.microsoft.com/en-us/windows-server/remote/remote-access/directaccess/single-server-wizard/da-basic-configure-s2-server
 2.  Certificate for ODJ "Direct Access Client Settings"
 3.  Github Repo and Access token setup
