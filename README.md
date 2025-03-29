@@ -36,4 +36,3 @@ it's respective file to attempt Step 4.
 
 ## Possible Issues
 1.  Certificate for Direct Access not specified correctly.
-2.  
